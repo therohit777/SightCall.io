@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Montserrat:wght@500&family=Open+Sans&family=Syne:wght@700&family=Ubuntu:wght@500&display=swap');
+.JoinPage{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+.subcontainer{
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roomcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+}
+.header{
+    color: white;
+    font-size: 2.8em;
+    text-align: center;
+}
+.joininput{
+    width: 60%;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;    
+}
+.jnbtn{
+    width: 60%;
+    margin-top: 15px;
+    padding: 15px 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: rgb(0, 30, 255);
+    border: none;
+    font-size: 14px;
+    font-weight: 700; 
+    cursor: pointer;  
+}
+.jnbtn:hover{
+    background-color: #0055ff;
+}
+.ortext{
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 35px;
+}
+.demotxt{
+    color: #bbbbbb;
+    font-weight: 100;
+    font-size: 12px;
+    width: 60%;
+    margin-top: 20px;
+    text-align: center;
+}
+.imgUrl{
+    width: 50%;
+}
+@media screen and (max-width:850px){
+    .subcontainer{
+        flex-direction: column-reverse;
+    }
+    .roomcontainer{
+        width: 80%;
+    }
+    .imgUrl{
+        width: 90%;
+    }
+}
